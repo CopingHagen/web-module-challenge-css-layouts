@@ -56,6 +56,7 @@ table {
 body {
     line-height: 1;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2px;
 }
 h1 {
     font-size: 2rem;
@@ -75,24 +76,27 @@ a {
     background-color: black;
     color: white;
 }
-.img {
+/* .img {
     padding-left: 10px;
     display: flex;
     flex-flow:row wrap;
     justify-content: space-between;
     
-}
+} */
 .gallery {
     display: flex;
+    padding-left: 7px;
 }
-footer {
+/* footer {
     background-color: gainsboro;
-}
-.container {
+} */
+.main {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
+.sitenav {
+    padding: 20px;
 }
