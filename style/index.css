@@ -112,11 +112,8 @@ button a {
     footer button {
         font-size: 1.2rem;
     }
-    .row {
-        flex-wrap: wrap;
-    }
-    .row>* {
-        flex: 1 1 150px;
+    .row div {
+        width: 22%;
     }
 }
 @media (max-width: 500px) {
@@ -131,5 +128,14 @@ button a {
         margin: 1px;
         justify-content: center;
         width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div {
+        width: 45%;
+        margin: 4% 0;
     }
 }
