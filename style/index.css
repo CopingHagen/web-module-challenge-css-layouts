@@ -41,7 +41,7 @@ button {
     background-color: white;
     color: black;
     border: black solid 1px;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 button:hover {
     background-color: black;
@@ -88,4 +88,54 @@ button a {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+@media (max-width: 800px) {
+    .topsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .topsection img {
+        padding: 5px;
+        width: 95%;
+    }
+    .topsection .description {
+        width: 90%;
+        padding-top: 1%;
+        text-align: center;
+    }
+    header button {
+        font-size: 1.2rem;
+    }
+    .topsection button {
+        font-size: 1.2rem;
+    }
+    footer button {
+        font-size: 1.2rem;
+    }
+    .row div {
+        width: 22%;
+    }
+}
+@media (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    header button {
+        display: flex;
+        margin: 1px;
+        justify-content: center;
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .row div {
+        width: 45%;
+        margin: 4% 0;
+    }
 }
